@@ -1,4 +1,34 @@
-span {
-  background: gray;
-  border: 1px solid red;
+html, body , #naotu {
+  height: 100%;
+}
+
+#naotu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.idea {
+  min-width: 40px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #c7c7c7;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.idea:hover {
+  background: #d8e9ff;
+}
+
+.circle-line {
+  border: 1px solid #c7c7c7;
+  border-right: none;
+  border-radius: 1987px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 59px;
+  width: 97px;
+  position: relative;
 }
