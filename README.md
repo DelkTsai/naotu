@@ -9,3 +9,12 @@
 - html-webpack-plugin
 - css-loader
 - webpack-dev-server
+
+### 相关命令
+-
+-
+-
+### 遇到的问题
+- 由于使用了全局webpack-dev-server，版本问题，导致启动一直失败
+- 接下来所有的babel webpack依赖都local安装，不依赖全局环境
+- 同时使用yarn锁定版本
