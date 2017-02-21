@@ -137,7 +137,7 @@ function createIdea(data) {
     var idea = document.createElement('span');
     idea.innerHTML = data.name;
     idea.setAttribute("data", JSON.stringify(data));
-
+    idea.setAttribute("class", 'idea');
     idea.addEventListener('click', function () {
         var child = JSON.parse(idea.getAttribute('data')).child;
 
@@ -486,6 +486,7 @@ function updateLink(linkElement, obj) {
 
 __webpack_require__(1);
 __webpack_require__(0);
+console.log('index');
 
 /***/ })
 /******/ ]);
